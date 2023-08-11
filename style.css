@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #121212;
+    scroll-behavior: smooth;
+}
+
+#navicon{
+    margin-left: 0.5em;
+}
+
+.fullscreen-container {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    max-width: 56rem;
+    margin: auto;
+}
+
+.text-7x1{
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.text-2x1{
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.text-1x1{
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.py-3{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.mr-3{
+    margin-right: 0.75rem;
+}
+
+.landing-buttons{
+    margin-right: 0.75rem;
+    border-color: #007bff;
+    border-width: 0.2rem;
+}
+
+.skills-container{
+    display: grid;
+    max-width: 56rem;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.skill-inner{
+    margin-bottom: 0.75rem;
+}
+
+.skill-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.progress {
+    background-color: #121212;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
