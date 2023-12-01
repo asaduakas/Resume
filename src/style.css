@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+    scroll-behatesxtvior: smooth;
 }
 
 body{
@@ -19,20 +19,11 @@ body{
     margin: auto;
 }
 
-.text-7x1{
-    font-size: 4.5rem;
-    line-height: 1;
-}
-
 .text-2x1{
     font-size: 2rem;
     line-height: 2;
 }
 
-.text-1x1{
-    font-size: 1.5rem;
-    line-height: 1;
-}
 
 .px-7{
     padding-left: 1.75rem;
@@ -41,11 +32,6 @@ body{
 
 .text-justify{
     text-align: justify;
-}
-
-.py-3{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
 }
 
 .mr-3{
@@ -62,10 +48,14 @@ body{
     display: grid;
     max-width: 56rem;
     margin: auto;
+    padding-bottom: 5rem;
 }
 
-.flex{
-    display: flex;
+.project-container{
+    display: grid;
+    max-width: 56rem;
+    margin: auto;
+    padding-bottom: 5rem;
 }
 
 .skill-inner{
@@ -81,5 +71,43 @@ body{
     background-color: #121212;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.exploring-inner{
+    display: inline-flex;
+}
+
+.border-blue {
+    --tw-border-opacity: 1 !important;
+    border-color: #007bff !important;
+    border-radius: .75rem !important;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #007bff;
+    border-radius: .75rem;
+    overflow: hidden;
+}
+
+.img-container{
+    width: 30%;
+    overflow: hidden;
+}
+
+.project-description{
+    flex: 1;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.fitting-img{
+    object-fit: none;
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;   
 }
 
