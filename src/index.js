@@ -6,17 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   animateProgressBarGit(0,100,1500);
 });
 
-let windowWasScrolled = false;
 
-document.addEventListener('wheel', wheelListener, {passive: false}); 
-function wheelListener(e){
-    if(!windowWasScrolled){
-        e.preventDefault();
-        windowWasScrolled = true;
-        var skills = document.getElementById('skills');
-        skills.scrollIntoView({behavior: "smooth", block: "center"});
-    }
-}
 
 function animateProgressBarJava(startValue, endValue, duration) {
   var progressBar = document.getElementById('java');

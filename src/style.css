@@ -7,6 +7,10 @@ body{
     scroll-behavior: smooth;
 }
 
+a{
+    color: #00B2FF;
+}
+
 #navicon{
     margin-left: 0.5em;
 }
@@ -89,6 +93,7 @@ body{
     border: 3px solid #007bff;
     border-radius: .75rem;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .img-container{
