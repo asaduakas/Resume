@@ -12,7 +12,7 @@ a{
 }
 
 #navicon{
-    margin-left: 0.5em;
+    margin-left: 1em;
 }
 
 .fullscreen-container {
@@ -114,5 +114,19 @@ a{
     max-width: 100%;
     max-height: 100%;
     width: 100%;   
+}
+
+.exploring-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+}
+
+.exploring-inner img{
+    width: 150px;
+    height: auto; 
+    object-fit: cover;
 }
 
